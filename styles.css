@@ -1,1 +1,28 @@
-/* Пиши стили тут */
+
+input {
+    visibility: hidden;
+}
+
+input:focus + label {
+    outline: 2px dotted black;
+}
+
+input:checked ~ label {
+    background-image: url("/img/star.png");
+    background-size: 100%;
+}
+
+input:hover ~ label {
+    background-image: url("/img/star.png");
+    background-size: 100%;
+}
+
+.star-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.star-wrap img{
+    max-width: 100%;
+    height: auto;
+}
