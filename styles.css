@@ -3,10 +3,6 @@ input {
     visibility: hidden;
 }
 
-input:focus + label {
-    outline: 2px dotted black;
-}
-
 input:checked ~ label {
     background-image: url("/img/star.png");
     background-size: 100%;
