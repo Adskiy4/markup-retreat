@@ -17,12 +17,12 @@ input:hover ~ label {
     background-size: 100%;
 }
 
-.star-wrap {
+.star-row {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.star-wrap img{
+.star-row img{
     max-width: 100%;
     height: auto;
 }
